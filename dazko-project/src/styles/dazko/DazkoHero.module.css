@@ -58,7 +58,7 @@
 
     position: relative;
     z-index: 10;
-    top: -156px;
+    top: -155px;
     height: 100%;
     width: 100%;
 
@@ -86,27 +86,29 @@
 }
 
 .heroDescriptionsBg {
-    background-color: #1211118f;
+    background-color: #030513ab;
     width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
     position: absolute;
     z-index: 10;
-    opacity: 1;
     color: #fff;
     padding: 20px;
 }
 
 .heroDescriptions {
+    position: relative;
+    z-index: 1000;
     height: 100%;
     max-width: 1200px;
+
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-    z-index: 1000;
+
+
 }
 
 
@@ -117,6 +119,7 @@
     width: 500px;
     line-height: 60px;
     margin-bottom: 20px;
+
 }
 
 .heroDescriptions p {
