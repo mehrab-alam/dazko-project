@@ -137,12 +137,13 @@
 
     .footerSection>div:last-child {
         width: 100%;
+        row-gap: 0px;
         grid-template-columns: repeat(1, 1fr);
 
     }
 
     .footerSection>div:last-child img {
-        width: 350px;
+        width: 100%;
         object-fit: cover;
         object-position: center;
     }
